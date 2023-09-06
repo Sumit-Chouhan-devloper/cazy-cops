@@ -205,11 +205,13 @@
   width: auto;
   color: white;
   animation-delay: 3000ms !important;
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  /* letter-spacing: .15em; Adjust as needed */
+  white-space: nowrap;
+  margin: 0 auto; 
   animation: typing 3.5s steps(30, end), blink-caret 0.5s step-end 1;
 }
+.hero_small_cloud{top: 38%;
+left: 25%;
+z-index: 0;}
 
 @keyframes typing {
   from {

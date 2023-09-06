@@ -7,13 +7,15 @@ import left_tree from "../assets/images/webp/hero_left_tree.webp"
 import right_tree from "../assets/images/webp/hero_right_tree.webp";
 import hero_badel from "../assets/images/webp/hero_badel.webp";
 import hero_rainbo from "../assets/images/webp/hero_rainbo.webp"
-import hero_layer from "../assets/images/webp/hero_layer.webp"
+import hero_layer from "../assets/images/webp/hero_layer.webp";
+import hero_cloud from "../assets/images/png/hero_small_cloud.png"
 const Hero = () => {
   return (
     <>
       <div className='hero_bg d-flex flex-column vh_xl_100'id='home'>
         <Navbar />
         <section className='hero_bg flex-grow-1 d-flex flex-column justify-content-center position-relative pt-sm-5 mt-5 pt-xxl-0 mt-xxl-0 z-1'>
+          <img className='position-absolute hero_small_cloud d-none d-sm-block' src={hero_cloud} alt="cloud" />
           <img className='position-absolute z-n1 bottom-0 w-100' src={hero_layer} alt="clouds" />
           <img className='position-absolute  hero_rainbo' src={hero_rainbo} alt="rainbo" />
           <div className='position-absolute end-0 top-0 z-0'> <img className='' src={hero_badel} alt="badel" /></div>
