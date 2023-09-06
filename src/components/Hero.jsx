@@ -12,7 +12,7 @@ import hero_cloud from "../assets/images/png/hero_small_cloud.png"
 const Hero = () => {
   return (
     <>
-      <div className='hero_bg d-flex flex-column vh_xl_100'id='home'>
+      <div className='hero_bg d-flex flex-column vh_xl_100' id='home'>
         <Navbar />
         <section className='hero_bg flex-grow-1 d-flex flex-column justify-content-center position-relative pt-sm-5 mt-5 pt-xxl-0 mt-xxl-0 z-1'>
           <img className='position-absolute hero_small_cloud d-none d-sm-block' src={hero_cloud} alt="cloud" />

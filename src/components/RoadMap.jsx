@@ -1,5 +1,5 @@
-import React, { useEffect } from 'react'
-import roadmap_left from "../assets/images/webp/left_abs_img.png"
+
+import roadmap_left from "../assets/images/png/roadmap_bottom_tree.png"
 import roadmap_arrow from "../assets/images/svg/arrow.svg"
 import impact_tree from "../assets/images/webp/impact_right_tree.webp"
 import { Card1, Card2, Card3, Card4 } from './common/icon';
@@ -15,7 +15,7 @@ const RoadMap = () => {
             <section class="bg_green d-flex py-sm-5 py-4 position-relative" id='roadmap'>
                 <img className='position-absolute roadmap_bottom_cut' src={roadmap_cut} alt="green_cut" />
                 <img className='position-absolute roadmap_tree' src={impact_tree} alt="tree" />
-                <div class="position-absolute left_img d-none d-md-block"><img src={roadmap_left} alt="img" /></div>
+                <img class="position-absolute roadmap_left" src={roadmap_left} alt="img" />
                 <div class="container py-5">
                     <h1 class="main_heading ff_charry_bomb txt_white fw-normal">Roadmap</h1>
                     <p class="ff_Balsamiq_sans txt_white fw-normal fs_md main_para">Nam duis feugiat tellus metus arcu pharetra
@@ -127,6 +127,7 @@ const RoadMap = () => {
                             </div>
                             <img height="50" width="50" class="position-absolute c_pointer top-0 end-0 mt-3 me-2"
                                 src={close_btn} alt="cross" onClick={() => setCard(true)} />
+                                <div className='phase_bottom_line mt-5 mx-auto'><span></span></div>
                         </div>
                     </div>
 

@@ -68,9 +68,9 @@ const MyNav = () => {
             </ul>
           </div>
           <div className="gap-2 d-lg-flex d-none d-lg-block">
-            <div className="nav_socal_icon"><img height={15} width={18} src={twitter_logo} alt="twitter logo" /></div>
-            <div className="nav_socal_icon"><img height={15} width={20} src={discord_logo} alt="discord logo" /></div>
-            <div className="nav_socal_icon"><img height={19} width={19} src={insta_logo} alt="insta logo" /></div>
+            <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Flogin%3Flang%3Den" className="nav_socal_icon" target="blank"><img height={15} width={18} src={twitter_logo} alt="twitter logo" /></a>
+            <a href="https://discord.com/channels/@me" target="blank" className="nav_socal_icon"><img height={15} width={20} src={discord_logo} alt="discord logo" /></a>
+            <a href="instagram.com" className="nav_socal_icon"target="blank"><img height={19} width={19} src={insta_logo} alt="insta logo" /></a>
           </div>
           <div
             className="d-flex justify-content-between flex-column d-lg-none "

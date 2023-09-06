@@ -33,9 +33,9 @@ const Footer = () => {
                     </li>
                 </ul>
                 <div className='d-flex justify-content-center gap-4 pt-4 pb-sm-5'>
-                    <a target='blank'className='footer_icon'  href="#https://twitter.com/i/flow/login?redirect_after_login=%2Flogin%3Flang%3Den"> <img src={twitter} alt="twitter" /></a>
-                    <a className='footer_icon' target='blank' href="#https://www.google.com/search?q=discord&rlz=1C1GCEA_enIN1061IN1061&oq=di&gs_lcrp=EgZjaHJvbWUqBggBEEUYOzIGCAAQRRg8MgYIARBFGDsyBggCEEUYOTIGCAMQRRg7MgYIBBBFGDsyDQgFEAAYgwEYsQMYgAQyBggGEEUYPDIGCAcQRRg80gEIMTA1M2owajeoAgCwAgA&sourceid=chrome&ie=UTF-8"><img src={discord} alt="discod" /></a>
-                    <a className='footer_icon' target='blank' href="#instagram.com"><img src={insta} alt="instagram" /></a>
+                    <a target='blank'className='footer_icon'  href="https://twitter.com/i/flow/login?redirect_after_login=%2Flogin%3Flang%3Den"> <img src={twitter} alt="twitter" /></a>
+                    <a className='footer_icon'target='blank' href="https://discord.com/channels/@me"><img src={discord} alt="discod" /></a>
+                    <a className='footer_icon' target='blank' href="instagram.com"><img src={insta} alt="instagram" /></a>
                 </div>
                 <hr/>
                 <p className='text-center pb-3 ff_Balsamiq_sans txt_black fw-normal opacity_07 fs_xs mb-0'>Copyright ©2022 All rights reserved Plump Kittens</p>
