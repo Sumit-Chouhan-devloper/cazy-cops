@@ -3,7 +3,7 @@ import { Col, Row } from 'react-bootstrap'
 import impact_gif from "../assets/images/gif/impact_gif.gif"
 import rainbo from "../assets/images/webp/impact_rainbo.webp"
 import cloud from "../assets/images/webp/impact_left_cloud.webp"
-import cut from '../assets/images/webp/impactBottomCut.png'
+import cut from '../assets/images/webp/impactBottomCut.webp'
 import impact_layer from "../assets/images/webp/impact_layer.webp"
 const Impact = () => {
     return (
