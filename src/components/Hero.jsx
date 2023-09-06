@@ -26,7 +26,7 @@ const Hero = () => {
           </div>
           <div className="container position-relative z-3">
             <div className='d-inline-block"'>
-              <h1 className='hero_heading  fs_7xl text-center fw-normal mb-0'><span className='ff_charry_bomb txt_orange txt_shado_18'>Cozy</span><span className=' ff_cherry_soda txt_green txt_shado_18'>Capys</span><span className='ff_charry_bomb txt_white txt_shado_25'>NFT</span></h1>
+              <h1 className='hero_heading  fs_7xl text-center fw-normal mb-0 pt-3 pt-lg-0'><span className='ff_charry_bomb txt_orange txt_shado_18'>Cozy</span><span className=' ff_cherry_soda txt_green txt_shado_18'>Capys</span><span className='ff_charry_bomb txt_white txt_shado_25'>NFT</span></h1>
             </div>
             <p className='ff_Balsamiq_sans fs_md txt_white text-center fw-bold mw_758 mx-auto mb-0 pt-4'>Cozy Capys is an impactful NFT project featuring 10,000 adorable capybara characters! 10% of all proceeds will go to wildlife conservation organizations!</p>
             <div className="text-center pt-4 mt-1"><button className='hero_btn ff_Balsamiq_sans fs_lg fw-bold txt_white rounded-5 border-0 bg_blue'>Join Us</button></div>
