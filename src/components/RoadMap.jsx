@@ -9,7 +9,6 @@ import close_btn from "../assets/images/webp/close.webp"
 import { useState } from 'react';
 const RoadMap = () => {
     const [card, setCard] = useState(true)
-
     return (
         <>
             <section class="bg_green d-flex py-sm-5 py-4 position-relative" id='roadmap'>
@@ -92,7 +91,7 @@ const RoadMap = () => {
                         </div>
                     </div>
                     <div className={`${card === true ? 'd-none' : 'd-block'}`}>
-                        <div class="position-relative d_none px-2" id="phage_1_click">
+                        <div class="position-relative d_none px-2">
                             <div class="phase_card row justify-content-lg-between justify-content-center align-items-center">
                                 <div class="col-xl-8 col-lg-7">
                                     <h2 class="txt_white ff_Balsamiq_sans fw-bold fs_4xl">Phase 1</h2>
